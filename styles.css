@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font: 400;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+main {
+    font-size: 21px;
+}
+
+/* Estilos de la navegación */
+nav h1 {
+    margin-right: auto;
+    font-family: 'Coiny', cursive;
+}
+
+nav a {
+    margin-left: 70px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+    display: flex;
+    flex-direction: column; /* Colocar elementos en columna */
+
+   
+}
+
+.grande {
+    font-size: 100px;
+    font-family: 'Coiny', cursive;
+
+}
+
+/* Estilos de los títulos y elementos de texto */
+h1, h2, h3, h4, .item {
+    color: black;
+}
+
+h2, h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+    display: inline;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+.item {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCEE21;
+}
+
+
+/* Estilos del título de servicios */
+#titulo {
+    font-size: 40px;
+    background-color:  #FCEE21
+}
+
+ol{
+    line-height : 50px;
+}
+
+
+/* Estilos de imágenes en el encabezado y servicios */
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+span {
+    color: red;
+}
+
+
+#imagen {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/* Estilos de etiquetas y campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 40px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+span {
+    color: red;
+}
+
+
+/* Estilos de secciones con clase "acomodar" */
+.acomodar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+/* Estilos del botón */
+.boton {
+    padding: 0;
+    border-bottom: none;
+}
+
+.boton input {
+    width: auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos del título h4 */
+h4 {
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+    display: inline;
+}
+
+
+/* Estilos imagenes de redes */
+aside img {
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+
+/* Estilos para eliminar el borde inferior en encabezado y barra lateral */
+header.acomodar,
+aside.acomodar {
+    border-bottom: none;
+}
+
+/* Estilos del pie de página */
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: #FCEE21;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+footer h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 33px;
+}
+
+/* Estilos para secciones */
+section {
+    width: 45%;
+}
